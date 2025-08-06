@@ -1,0 +1,4 @@
+baseURL = 'https://wenzisay.com/'
+languageCode = 'zh-cn'
+title = "Wenzi's Log | 时光的脚注"
+theme = 'no-style-please'

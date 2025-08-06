@@ -1,0 +1,51 @@
+[[entries]]
+title = "info"
+
+  [[entries.entries]]
+  title = "🏦互联网金融科技 🧑‍💻开发工程师 📍杭州"
+
+  [[entries.entries]]
+  title = "即刻"
+  url = "https://web.okjike.com/u/56211DA6-A6AE-4EEA-8D39-5996A07E49A6"
+
+
+[[entries]]
+title = "all posts"
+
+  [entries.post_list]
+  limit = 5
+  show_more = true
+  show_more_text = "See archive..."
+  show_more_url = "posts"
+
+[[entries]]
+title = "posts by category"
+
+  [entries.post_list]
+  section = "posts"
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "posts"
+
+[[entries]]
+title = "rss"
+url = "index.xml"
+
+[[entries]]
+title = "another list"
+
+  [[entries.entries]]
+  title = "with subitems"
+
+    [[entries.entries.entries]]
+    title = "with subsubitems"
+
+    [[entries.entries.entries]]
+    title = "example page"
+    url = "about"
+
+[[entries]]
+title = "PRO TIP"
+entries = [
+   { title = "to edit this menu, edit data/menu.toml file" }
+  ]

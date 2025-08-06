@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wenzi&#39;s Log | 时光的脚注</title>
+    <link>http://localhost:62325/</link>
+    <description>Recent content on Wenzi&#39;s Log | 时光的脚注</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 06 Aug 2025 21:00:11 +0800</lastBuildDate>
+    <atom:link href="http://localhost:62325/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:62325/posts/my-first-post/</link>
+      <pubDate>Wed, 06 Aug 2025 21:00:11 +0800</pubDate>
+      <guid>http://localhost:62325/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Hello，I am wenzi&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
