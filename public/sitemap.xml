@@ -8,13 +8,17 @@
     <loc>http://localhost:1313/posts/think-bigger-%E6%8A%8A%E6%83%B3%E6%B3%95%E6%94%BE%E5%A4%A710%E5%80%8D/</loc>
     <lastmod>2025-08-06T23:15:12+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-08-06T21:00:11+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <lastmod>2025-08-06T21:00:11+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E5%91%93%E8%AF%AD/</loc>
     <lastmod>2025-08-06T21:00:11+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2022-08-25T21:30:04+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
