@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Wenzi&#39;s Log</title>
-    <link>http://localhost:54209/posts/</link>
+    <link>http://localhost:1316/posts/</link>
     <description>Recent content in Posts on Wenzi&#39;s Log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 06 Aug 2025 23:15:12 +0800</lastBuildDate><atom:link href="http://localhost:54209/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Aug 2025 23:15:12 +0800</lastBuildDate><atom:link href="http://localhost:1316/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Think Bigger 把想法放大10倍</title>
-      <link>http://localhost:54209/posts/think-bigger-%E6%8A%8A%E6%83%B3%E6%B3%95%E6%94%BE%E5%A4%A710%E5%80%8D/</link>
+      <link>http://localhost:1316/posts/think-bigger-%E6%8A%8A%E6%83%B3%E6%B3%95%E6%94%BE%E5%A4%A710%E5%80%8D/</link>
       <pubDate>Wed, 06 Aug 2025 23:15:12 +0800</pubDate>
       
-      <guid>http://localhost:54209/posts/think-bigger-%E6%8A%8A%E6%83%B3%E6%B3%95%E6%94%BE%E5%A4%A710%E5%80%8D/</guid>
+      <guid>http://localhost:1316/posts/think-bigger-%E6%8A%8A%E6%83%B3%E6%B3%95%E6%94%BE%E5%A4%A710%E5%80%8D/</guid>
       
         <description>&lt;p&gt;把目标定在火星，你可能会到月球，但把目标定在月球，你可能连大气层都出不去。&lt;/p&gt;
 &lt;p&gt;凡事“往大处想”，是谷歌的独特思维模式。佩奇称之为“&lt;strong&gt;把想法放大10倍&lt;/strong&gt;”（10X Thinking）。主张通过设定比常规目标高一个数量级的野心，倒逼团队突破惯性思维，避免渐进式优化，实现颠覆性创新。&lt;/p&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>My First Post</title>
-      <link>http://localhost:54209/posts/my-first-post/</link>
+      <link>http://localhost:1316/posts/my-first-post/</link>
       <pubDate>Wed, 06 Aug 2025 21:00:11 +0800</pubDate>
       
-      <guid>http://localhost:54209/posts/my-first-post/</guid>
+      <guid>http://localhost:1316/posts/my-first-post/</guid>
       
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-C&#34; data-lang=&#34;C&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello，I am wenzi&amp;#34;&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
