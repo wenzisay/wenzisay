@@ -1,8 +1,61 @@
 baseURL = 'https://wenzisay.com/'
 languageCode = 'zh-cn'
-title = "Wenzi's Log | 时光的脚注"
-theme = 'no-style-please'
+title = "Wenzi's Log"
+#theme = 'no-style-please'
+theme = 'anatole'
+
+[params]
+title = "Wenzi's Log"
+author = "Wenzi"
+description = "A Collection of Reflections"
+profilePicture = "images/profile.jpg"
+mainSections = ["posts"]
+
+
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# Localized dates requires Hugo version 0.87.0
+localizedDates = false
+
+[markup]
+    [markup.goldmark]
+      [markup.goldmark.renderer]
+        unsafe=true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+
+[services]
+# Enable Disqus.Disqus.Shortname
+  [services.disqus]
+    #shortname = 'your-disqus-shortname'
+# Google Analytics
+  [services.googleAnalytics]
+    #ID = 'G-MEASUREMENT_ID'
