@@ -4,6 +4,8 @@ title = "Wenzi's Log"
 #theme = 'no-style-please'
 theme = 'anatole'
 
+googleAnalytics = 'G-4MQXG1J2GX'
+
 [params]
 title = "Wenzi's Log"
 author = "Wenzi"
