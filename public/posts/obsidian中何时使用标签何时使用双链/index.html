@@ -1,0 +1,486 @@
+<!doctype html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <title>
+    Wenzi
+        |
+        Obsidian中何时使用标签，何时使用双链
+      
+
+    
+
+  </title>
+
+  <meta name="generator" content="Hugo 0.148.2"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Wenzi" />
+  <meta
+    name="description"
+    content="A Collection of Reflections"
+  />
+  
+  
+        <link rel="stylesheet" href="/css/anatole.css" />
+      
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.137b1cf3cea9a8adb7884343a9a5ddddf4280f59153f74dc782fb7f7bf0d0519.css"
+    integrity="sha256-E3sc886pqK23iENDqaXd3fQoD1kVP3TceC&#43;3978NBRk="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.e65dc5b48fb5f39b142360c57c3a215744c94e56c755c929cc3e88fe12aab4d3.css"
+    integrity="sha256-5l3FtI&#43;185sUI2DFfDohV0TJTlbHVckpzD6I/hKqtNM="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.6f4f16d58da1c82c0c3a3436e021a3d39b4742f741192c546e73e947eacfd92f.css"
+    integrity="sha256-b08W1Y2hyCwMOjQ24CGj05tHQvdBGSxUbnPpR&#43;rP2S8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.e10425ad768bc98ff1fb272a0ac8420f9d1ba22f0612c08ff1010c95080ffe7e.css"
+    integrity="sha256-4QQlrXaLyY/x&#43;ycqCshCD50boi8GEsCP8QEMlQgP/n4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+  <link rel="canonical" href="http://localhost:1313/posts/obsidian%E4%B8%AD%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E6%A0%87%E7%AD%BE%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E5%8F%8C%E9%93%BE/" />
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.8724ddf9268dee451060f191961647573c7f592fbccc6d858746236b3f915813.js"
+      integrity="sha256-hyTd&#43;SaN7kUQYPGRlhZHVzx/WS&#43;8zG2Fh0Yjaz&#43;RWBM="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+  
+
+  
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Obsidian中何时使用标签，何时使用双链">
+  <meta name="twitter:description" content="使用 Obsidian 记笔记许多年了，对于标签与双链应该如何取舍一直以来都没有理清楚。
+自己有时通过创建一则主题笔记的方式进行分类，有时直接通过打一个标签的方式进行分类。甚至构建了一个较复杂的多层标签体系，但回想却发现只是一味的打标签，很少使用标签去查找笔记。更多的还是使用快速切换（根究笔记标题搜索）来找到所需的笔记。
+今天读了一下Obsidian CEO的How I use Obsidian这篇文章，发现他基本只用双链笔记去分类与串联。这进一步加重了“何时需要使用标签”这个疑问。
+今天结合AI助手一起梳理思考了一把，我认为基本把这个疑问搞明晰了。
+一、双链与标签各自使用的场景：
+双链 ( [[Page Name]])：用于连接具体的概念、实体或主题，这些概念本身值得拥有一个独立的笔记页面来承载更详细的信息。它强调的是笔记之间的关系和上下文。 标签 (Tags / #tagname)：用于对笔记进行分类、标记状态、或者赋予某种属性。它更多的是一种元数据，用于组织和筛选，而不一定指向一个需要详细阐述的独立概念。 二、一个简明的判断原则：
+问自己：“这个词/概念是否值得我为它创建一个专门的笔记，并在未来不断丰富其内容？” 如果是，那么它更适合用双链 [[这个概念]]。 如果否，它只是一个分类、状态或属性，那么标签 #这个属性 可能更合适。 三、一些更适合使用标签的情况举例（与双链笔记对比）：
+标记笔记的状态 (Status Markers): 例如：#待办 (todo), #处理中 (in-progress), #已完成 (completed), #待回顾 (review), #重要 (important), #紧急 (urgent)。 原因：这些状态本身通常不需要一个独立的笔记页面来解释“待办”是什么。它们是临时的、描述性的，用于快速筛选和管理任务流。 标记笔记的类型 (Note Types): 例如：#定义 (definition), #观点 (opinion), #问题 (question), #灵感 (idea), #引用 (quote), #会议记录 (meeting-notes)。 原因：这有助于你快速找到特定类型的笔记，而例如“引用”这个概念本身可能不需要一篇专门的笔记来阐述。 非常广泛的、高度抽象的分类 (Broad, Abstract Categories): 例如：#生活 (life), #工作 (work), #学习 (learning), #个人成长 (personal-growth)。 原因：虽然这些也可以作为MOC（Map of Content，内容地图）的入口，使用双链链接到具体主题。但如果你只是想给笔记一个非常宽泛的归属，而这个归属本身你并不打算写一篇专门的笔记来阐述它（比如写一篇叫《生活》的笔记），那么用标签会更轻量。当你发现某个标签下的内容足够丰富，值得专门梳理时，再把它升级为一个MOC页面也不迟。 临时性的、探索性的分组 (Temporary or Exploratory Grouping): 例如：你在研究某个新领域，可能会给相关的笔记打上 #探索中_新技术A 这样的标签。 原因：这种分组可能随着你理解的深入而改变或废弃。使用标签更为灵活，避免了创建很多最终可能无用的空链接页面。 四、更合适使用双链的情况（与标签对比）：">
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/posts/obsidian%E4%B8%AD%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E6%A0%87%E7%AD%BE%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E5%8F%8C%E9%93%BE/">
+  <meta property="og:site_name" content="Wenzi&#39;s Log">
+  <meta property="og:title" content="Obsidian中何时使用标签，何时使用双链">
+  <meta property="og:description" content="使用 Obsidian 记笔记许多年了，对于标签与双链应该如何取舍一直以来都没有理清楚。
+自己有时通过创建一则主题笔记的方式进行分类，有时直接通过打一个标签的方式进行分类。甚至构建了一个较复杂的多层标签体系，但回想却发现只是一味的打标签，很少使用标签去查找笔记。更多的还是使用快速切换（根究笔记标题搜索）来找到所需的笔记。
+今天读了一下Obsidian CEO的How I use Obsidian这篇文章，发现他基本只用双链笔记去分类与串联。这进一步加重了“何时需要使用标签”这个疑问。
+今天结合AI助手一起梳理思考了一把，我认为基本把这个疑问搞明晰了。
+一、双链与标签各自使用的场景：
+双链 ( [[Page Name]])：用于连接具体的概念、实体或主题，这些概念本身值得拥有一个独立的笔记页面来承载更详细的信息。它强调的是笔记之间的关系和上下文。 标签 (Tags / #tagname)：用于对笔记进行分类、标记状态、或者赋予某种属性。它更多的是一种元数据，用于组织和筛选，而不一定指向一个需要详细阐述的独立概念。 二、一个简明的判断原则：
+问自己：“这个词/概念是否值得我为它创建一个专门的笔记，并在未来不断丰富其内容？” 如果是，那么它更适合用双链 [[这个概念]]。 如果否，它只是一个分类、状态或属性，那么标签 #这个属性 可能更合适。 三、一些更适合使用标签的情况举例（与双链笔记对比）：
+标记笔记的状态 (Status Markers): 例如：#待办 (todo), #处理中 (in-progress), #已完成 (completed), #待回顾 (review), #重要 (important), #紧急 (urgent)。 原因：这些状态本身通常不需要一个独立的笔记页面来解释“待办”是什么。它们是临时的、描述性的，用于快速筛选和管理任务流。 标记笔记的类型 (Note Types): 例如：#定义 (definition), #观点 (opinion), #问题 (question), #灵感 (idea), #引用 (quote), #会议记录 (meeting-notes)。 原因：这有助于你快速找到特定类型的笔记，而例如“引用”这个概念本身可能不需要一篇专门的笔记来阐述。 非常广泛的、高度抽象的分类 (Broad, Abstract Categories): 例如：#生活 (life), #工作 (work), #学习 (learning), #个人成长 (personal-growth)。 原因：虽然这些也可以作为MOC（Map of Content，内容地图）的入口，使用双链链接到具体主题。但如果你只是想给笔记一个非常宽泛的归属，而这个归属本身你并不打算写一篇专门的笔记来阐述它（比如写一篇叫《生活》的笔记），那么用标签会更轻量。当你发现某个标签下的内容足够丰富，值得专门梳理时，再把它升级为一个MOC页面也不迟。 临时性的、探索性的分组 (Temporary or Exploratory Grouping): 例如：你在研究某个新领域，可能会给相关的笔记打上 #探索中_新技术A 这样的标签。 原因：这种分组可能随着你理解的深入而改变或废弃。使用标签更为灵活，避免了创建很多最终可能无用的空链接页面。 四、更合适使用双链的情况（与标签对比）：">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-09-29T19:40:12+08:00">
+    <meta property="article:modified_time" content="2025-09-29T19:40:12+08:00">
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "posts",
+        "name": "Obsidian中何时使用标签，何时使用双链",
+        "headline": "Obsidian中何时使用标签，何时使用双链",
+        "alternativeHeadline": "",
+        "description": "
+      
+        \u003cp\u003e使用 Obsidian 记笔记许多年了，对于标签与双链应该如何取舍一直以来都没有理清楚。\u003c\/p\u003e\n\u003cp\u003e自己有时通过创建一则主题笔记的方式进行分类，有时直接通过打一个标签的方式进行分类。甚至构建了一个较复杂的多层标签体系，但回想却发现只是一味的打标签，很少使用标签去查找笔记。更多的还是使用快速切换（根究笔记标题搜索）来找到所需的笔记。\u003c\/p\u003e\n\u003cp\u003e今天读了一下Obsidian CEO的\u003ca href=\u0022https:\/\/stephango.com\/vault\u0022\u003eHow I use Obsidian\u003c\/a\u003e这篇文章，发现他基本只用双链笔记去分类与串联。这进一步加重了“何时需要使用标签”这个疑问。\u003c\/p\u003e\n\u003cp\u003e今天结合AI助手一起梳理思考了一把，我认为基本把这个疑问搞明晰了。\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003e一、双链与标签各自使用的场景：\u003c\/strong\u003e\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e双链 ( \u003ccode\u003e[[Page Name]]\u003c\/code\u003e)\u003c\/strong\u003e：用于连接\u003cstrong\u003e具体的概念、实体或主题\u003c\/strong\u003e，这些概念本身值得拥有一个独立的笔记页面来承载更详细的信息。它强调的是笔记之间的\u003cstrong\u003e关系和上下文\u003c\/strong\u003e。\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003e标签 (Tags \/ \u003ccode\u003e#tagname\u003c\/code\u003e)\u003c\/strong\u003e：用于对笔记进行\u003cstrong\u003e分类、标记状态、或者赋予某种属性\u003c\/strong\u003e。它更多的是一种元数据，用于组织和筛选，而不一定指向一个需要详细阐述的独立概念。\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e\u003cstrong\u003e二、一个简明的判断原则：\u003c\/strong\u003e\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e问自己：“这个词\/概念是否值得我为它创建一个专门的笔记，并在未来不断丰富其内容？”\u003c\/strong\u003e\n\u003cul\u003e\n\u003cli\u003e如果\u003cstrong\u003e是\u003c\/strong\u003e，那么它更适合用\u003cstrong\u003e双链\u003c\/strong\u003e \u003ccode\u003e[[这个概念]]\u003c\/code\u003e。\u003c\/li\u003e\n\u003cli\u003e如果\u003cstrong\u003e否\u003c\/strong\u003e，它只是一个分类、状态或属性，那么\u003cstrong\u003e标签\u003c\/strong\u003e \u003ccode\u003e#这个属性\u003c\/code\u003e 可能更合适。\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e\u003cstrong\u003e三、一些更适合使用标签的情况举例（与双链笔记对比）：\u003c\/strong\u003e\u003c\/p\u003e\n\u003col\u003e\n\u003cli\u003e\u003cstrong\u003e标记笔记的状态 (Status Markers):\u003c\/strong\u003e\n\u003cul\u003e\n\u003cli\u003e例如：\u003ccode\u003e#待办\u003c\/code\u003e (todo), \u003ccode\u003e#处理中\u003c\/code\u003e (in-progress), \u003ccode\u003e#已完成\u003c\/code\u003e (completed), \u003ccode\u003e#待回顾\u003c\/code\u003e (review), \u003ccode\u003e#重要\u003c\/code\u003e (important), \u003ccode\u003e#紧急\u003c\/code\u003e (urgent)。\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003e原因\u003c\/strong\u003e：这些状态本身通常不需要一个独立的笔记页面来解释“待办”是什么。它们是临时的、描述性的，用于快速筛选和管理任务流。\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003e标记笔记的类型 (Note Types):\u003c\/strong\u003e\n\u003cul\u003e\n\u003cli\u003e例如：\u003ccode\u003e#定义\u003c\/code\u003e (definition), \u003ccode\u003e#观点\u003c\/code\u003e (opinion), \u003ccode\u003e#问题\u003c\/code\u003e (question), \u003ccode\u003e#灵感\u003c\/code\u003e (idea), \u003ccode\u003e#引用\u003c\/code\u003e (quote), \u003ccode\u003e#会议记录\u003c\/code\u003e (meeting-notes)。\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003e原因\u003c\/strong\u003e：这有助于你快速找到特定类型的笔记，而例如“引用”这个概念本身可能不需要一篇专门的笔记来阐述。\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003e非常广泛的、高度抽象的分类 (Broad, Abstract Categories):\u003c\/strong\u003e\n\u003cul\u003e\n\u003cli\u003e例如：\u003ccode\u003e#生活\u003c\/code\u003e (life), \u003ccode\u003e#工作\u003c\/code\u003e (work), \u003ccode\u003e#学习\u003c\/code\u003e (learning), \u003ccode\u003e#个人成长\u003c\/code\u003e (personal-growth)。\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003e原因\u003c\/strong\u003e：虽然这些也可以作为MOC（Map of Content，内容地图）的入口，使用双链链接到具体主题。但如果你只是想给笔记一个非常宽泛的归属，而这个归属本身你并不打算写一篇专门的笔记来阐述它（比如写一篇叫《生活》的笔记），那么用标签会更轻量。当你发现某个标签下的内容足够丰富，值得专门梳理时，再把它升级为一个MOC页面也不迟。\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003e临时性的、探索性的分组 (Temporary or Exploratory Grouping):\u003c\/strong\u003e\n\u003cul\u003e\n\u003cli\u003e例如：你在研究某个新领域，可能会给相关的笔记打上 \u003ccode\u003e#探索中_新技术A\u003c\/code\u003e 这样的标签。\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003e原因\u003c\/strong\u003e：这种分组可能随着你理解的深入而改变或废弃。使用标签更为灵活，避免了创建很多最终可能无用的空链接页面。\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cp\u003e\u003cstrong\u003e四、更合适使用双链的情况（与标签对比）：\u003c\/strong\u003e\u003c\/p\u003e
+
+
+      
+
+
+    ",
+        "license": "",
+        
+        "inLanguage": "zh-cn",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/posts\/obsidian%E4%B8%AD%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E6%A0%87%E7%AD%BE%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E5%8F%8C%E9%93%BE\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Wenzi"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Wenzi"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Wenzi"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Wenzi"
+        },
+        "dateCreated": "2025-09-29T19:40:12.00Z",
+        "datePublished": "2025-09-29T19:40:12.00Z",
+        "dateModified": "2025-09-29T19:40:12.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Wenzi",
+            "url": "http://localhost:1313/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "http:\/\/localhost:1313\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "http:\/\/localhost:1313\/posts\/obsidian%E4%B8%AD%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E6%A0%87%E7%AD%BE%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E5%8F%8C%E9%93%BE\/",
+        "wordCount" : "99",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+
+
+  
+  
+  
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">Wenzi&#39;s Log</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>A Collection of Reflections</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Wenzi
+        2025
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.9531b4a2217a70c5a1fce89c1f81c9ebbdd586708fcd4130b417320c7230c8d6.js"
+    integrity="sha256-lTG0oiF6cMWh/OicH4HJ673VhnCPzUEwtBcyDHIwyNY="
+    crossorigin="anonymous"
+  ></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4MQXG1J2GX"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-4MQXG1J2GX');
+        }
+      </script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/categories/"
+              
+              title=""
+              >Categories</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/tags/"
+              
+              title=""
+              >Tags</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      
+        <h1>Obsidian中何时使用标签，何时使用双链</h1>
+      
+      <p>使用 Obsidian 记笔记许多年了，对于标签与双链应该如何取舍一直以来都没有理清楚。</p>
+<p>自己有时通过创建一则主题笔记的方式进行分类，有时直接通过打一个标签的方式进行分类。甚至构建了一个较复杂的多层标签体系，但回想却发现只是一味的打标签，很少使用标签去查找笔记。更多的还是使用快速切换（根究笔记标题搜索）来找到所需的笔记。</p>
+<p>今天读了一下Obsidian CEO的<a href="https://stephango.com/vault">How I use Obsidian</a>这篇文章，发现他基本只用双链笔记去分类与串联。这进一步加重了“何时需要使用标签”这个疑问。</p>
+<p>今天结合AI助手一起梳理思考了一把，我认为基本把这个疑问搞明晰了。</p>
+<p><strong>一、双链与标签各自使用的场景：</strong></p>
+<ul>
+<li><strong>双链 ( <code>[[Page Name]]</code>)</strong>：用于连接<strong>具体的概念、实体或主题</strong>，这些概念本身值得拥有一个独立的笔记页面来承载更详细的信息。它强调的是笔记之间的<strong>关系和上下文</strong>。</li>
+<li><strong>标签 (Tags / <code>#tagname</code>)</strong>：用于对笔记进行<strong>分类、标记状态、或者赋予某种属性</strong>。它更多的是一种元数据，用于组织和筛选，而不一定指向一个需要详细阐述的独立概念。</li>
+</ul>
+<p><strong>二、一个简明的判断原则：</strong></p>
+<ul>
+<li><strong>问自己：“这个词/概念是否值得我为它创建一个专门的笔记，并在未来不断丰富其内容？”</strong>
+<ul>
+<li>如果<strong>是</strong>，那么它更适合用<strong>双链</strong> <code>[[这个概念]]</code>。</li>
+<li>如果<strong>否</strong>，它只是一个分类、状态或属性，那么<strong>标签</strong> <code>#这个属性</code> 可能更合适。</li>
+</ul>
+</li>
+</ul>
+<p><strong>三、一些更适合使用标签的情况举例（与双链笔记对比）：</strong></p>
+<ol>
+<li><strong>标记笔记的状态 (Status Markers):</strong>
+<ul>
+<li>例如：<code>#待办</code> (todo), <code>#处理中</code> (in-progress), <code>#已完成</code> (completed), <code>#待回顾</code> (review), <code>#重要</code> (important), <code>#紧急</code> (urgent)。</li>
+<li><strong>原因</strong>：这些状态本身通常不需要一个独立的笔记页面来解释“待办”是什么。它们是临时的、描述性的，用于快速筛选和管理任务流。</li>
+</ul>
+</li>
+<li><strong>标记笔记的类型 (Note Types):</strong>
+<ul>
+<li>例如：<code>#定义</code> (definition), <code>#观点</code> (opinion), <code>#问题</code> (question), <code>#灵感</code> (idea), <code>#引用</code> (quote), <code>#会议记录</code> (meeting-notes)。</li>
+<li><strong>原因</strong>：这有助于你快速找到特定类型的笔记，而例如“引用”这个概念本身可能不需要一篇专门的笔记来阐述。</li>
+</ul>
+</li>
+<li><strong>非常广泛的、高度抽象的分类 (Broad, Abstract Categories):</strong>
+<ul>
+<li>例如：<code>#生活</code> (life), <code>#工作</code> (work), <code>#学习</code> (learning), <code>#个人成长</code> (personal-growth)。</li>
+<li><strong>原因</strong>：虽然这些也可以作为MOC（Map of Content，内容地图）的入口，使用双链链接到具体主题。但如果你只是想给笔记一个非常宽泛的归属，而这个归属本身你并不打算写一篇专门的笔记来阐述它（比如写一篇叫《生活》的笔记），那么用标签会更轻量。当你发现某个标签下的内容足够丰富，值得专门梳理时，再把它升级为一个MOC页面也不迟。</li>
+</ul>
+</li>
+<li><strong>临时性的、探索性的分组 (Temporary or Exploratory Grouping):</strong>
+<ul>
+<li>例如：你在研究某个新领域，可能会给相关的笔记打上 <code>#探索中_新技术A</code> 这样的标签。</li>
+<li><strong>原因</strong>：这种分组可能随着你理解的深入而改变或废弃。使用标签更为灵活，避免了创建很多最终可能无用的空链接页面。</li>
+</ul>
+</li>
+</ol>
+<p><strong>四、更合适使用双链的情况（与标签对比）：</strong></p>
+<ul>
+<li><strong>具体的人、事、物、理论、项目等</strong>：<code>[[番茄工作法]]</code>, <code>[[王阳明]]</code>, <code>[[项目Alpha启动会]]</code>。这些都值得拥有自己的专属笔记页面。</li>
+<li><strong>构建MOC (Map of Content)</strong>：<code>[[时间管理MOC]]</code> 链接到所有与时间管理相关的具体方法和思考。例如[[Obsidian的CEO使用了一类叫做Categories的笔记]]</li>
+<li><strong>建立主题之间的明确联系</strong>：当你想明确指出笔记A与笔记B在某个具体观点上相关联时。</li>
+</ul>
+<p><strong>五、总结</strong></p>
+<p>双链和标签在 Obsidian 中是相辅相成的。双链构建的是知识点之间的<strong>深度连接和网络</strong>，而标签则提供了<strong>广度上的分类和组织维度</strong>。灵活地结合使用它们，才能最大限度地发挥 Obsidian 的潜力。</p>
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Wenzi
+        2025
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.9531b4a2217a70c5a1fce89c1f81c9ebbdd586708fcd4130b417320c7230c8d6.js"
+    integrity="sha256-lTG0oiF6cMWh/OicH4HJ673VhnCPzUEwtBcyDHIwyNY="
+    crossorigin="anonymous"
+  ></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4MQXG1J2GX"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-4MQXG1J2GX');
+        }
+      </script></body>
+</html>
