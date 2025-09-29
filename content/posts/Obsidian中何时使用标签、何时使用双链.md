@@ -2,6 +2,8 @@
 date = '2025-09-29T19:40:12+08:00'
 draft = false
 title = 'Obsidian中何时使用标签，何时使用双链'
+categories = ['笔记术']
+tags = ['Obsidian']
 +++
 
 使用 Obsidian 记笔记许多年了，对于标签与双链应该如何取舍一直以来都没有理清楚。
