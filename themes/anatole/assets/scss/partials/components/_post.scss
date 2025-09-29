@@ -69,11 +69,63 @@
       }
     }
 
+    // 摘要段落样式优化
+    p {
+      line-height: 1.6;
+      margin-bottom: 0.8em;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      strong {
+        font-weight: 600;
+      }
+
+      em {
+        font-style: italic;
+      }
+
+      code {
+        font-family: monospace;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 0.2em 0.4em;
+        border-radius: 3px;
+        font-size: 0.9em;
+      }
+    }
+
+    // 列表样式优化
+    ul, ol {
+      line-height: 1.6;
+      margin-bottom: 0.8em;
+      padding-left: 1.5em;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      li {
+        margin-bottom: 0.4em;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    // 代码块样式优化
     .chroma {
       @include color.themed() {
         background-color: color.t('primary-lighter');
         display: block;
         border-bottom: 1px solid color.t('primary-lighter');
+      }
+
+      margin-bottom: 0.8em;
+
+      &:last-child {
+        margin-bottom: 0;
       }
     }
 

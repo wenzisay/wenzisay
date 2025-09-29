@@ -12,9 +12,10 @@ author = "Wenzi"
 description = "A Collection of Reflections"
 profilePicture = "images/profile.jpg"
 mainSections = ["posts"]
+fullPostContent = false
+readMore = true
 
-
-summarylength = 10
+summarylength = 25
 enableEmoji = true
 enableRobotsTXT = true
 

@@ -2,73 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wenzi&#39;s Log</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:59678/</link>
     <description>Recent content on Wenzi&#39;s Log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 29 Sep 2025 19:40:12 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Sep 2025 19:40:12 +0800</lastBuildDate><atom:link href="http://localhost:59678/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Obsidian中何时使用标签，何时使用双链</title>
-      <link>http://localhost:1313/posts/obsidian%E4%B8%AD%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E6%A0%87%E7%AD%BE%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E5%8F%8C%E9%93%BE/</link>
+      <link>http://localhost:59678/posts/obsidian%E4%B8%AD%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E6%A0%87%E7%AD%BE%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E5%8F%8C%E9%93%BE/</link>
       <pubDate>Mon, 29 Sep 2025 19:40:12 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/obsidian%E4%B8%AD%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E6%A0%87%E7%AD%BE%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E5%8F%8C%E9%93%BE/</guid>
+      <guid>http://localhost:59678/posts/obsidian%E4%B8%AD%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E6%A0%87%E7%AD%BE%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E5%8F%8C%E9%93%BE/</guid>
       
         <description>&lt;p&gt;使用 Obsidian 记笔记许多年了，对于标签与双链应该如何取舍一直以来都没有理清楚。&lt;/p&gt;
 &lt;p&gt;自己有时通过创建一则主题笔记的方式进行分类，有时直接通过打一个标签的方式进行分类。甚至构建了一个较复杂的多层标签体系，但回想却发现只是一味的打标签，很少使用标签去查找笔记。更多的还是使用快速切换（根究笔记标题搜索）来找到所需的笔记。&lt;/p&gt;
 &lt;p&gt;今天读了一下Obsidian CEO的&lt;a href=&#34;https://stephango.com/vault&#34;&gt;How I use Obsidian&lt;/a&gt;这篇文章，发现他基本只用双链笔记去分类与串联。这进一步加重了“何时需要使用标签”这个疑问。&lt;/p&gt;
-&lt;p&gt;今天结合AI助手一起梳理思考了一把，我认为基本把这个疑问搞明晰了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;一、双链与标签各自使用的场景：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;双链 ( &lt;code&gt;[[Page Name]]&lt;/code&gt;)&lt;/strong&gt;：用于连接&lt;strong&gt;具体的概念、实体或主题&lt;/strong&gt;，这些概念本身值得拥有一个独立的笔记页面来承载更详细的信息。它强调的是笔记之间的&lt;strong&gt;关系和上下文&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;标签 (Tags / &lt;code&gt;#tagname&lt;/code&gt;)&lt;/strong&gt;：用于对笔记进行&lt;strong&gt;分类、标记状态、或者赋予某种属性&lt;/strong&gt;。它更多的是一种元数据，用于组织和筛选，而不一定指向一个需要详细阐述的独立概念。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;二、一个简明的判断原则：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;问自己：“这个词/概念是否值得我为它创建一个专门的笔记，并在未来不断丰富其内容？”&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;如果&lt;strong&gt;是&lt;/strong&gt;，那么它更适合用&lt;strong&gt;双链&lt;/strong&gt; &lt;code&gt;[[这个概念]]&lt;/code&gt;。&lt;/li&gt;
-&lt;li&gt;如果&lt;strong&gt;否&lt;/strong&gt;，它只是一个分类、状态或属性，那么&lt;strong&gt;标签&lt;/strong&gt; &lt;code&gt;#这个属性&lt;/code&gt; 可能更合适。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;三、一些更适合使用标签的情况举例（与双链笔记对比）：&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;标记笔记的状态 (Status Markers):&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;例如：&lt;code&gt;#待办&lt;/code&gt; (todo), &lt;code&gt;#处理中&lt;/code&gt; (in-progress), &lt;code&gt;#已完成&lt;/code&gt; (completed), &lt;code&gt;#待回顾&lt;/code&gt; (review), &lt;code&gt;#重要&lt;/code&gt; (important), &lt;code&gt;#紧急&lt;/code&gt; (urgent)。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;原因&lt;/strong&gt;：这些状态本身通常不需要一个独立的笔记页面来解释“待办”是什么。它们是临时的、描述性的，用于快速筛选和管理任务流。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;标记笔记的类型 (Note Types):&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;例如：&lt;code&gt;#定义&lt;/code&gt; (definition), &lt;code&gt;#观点&lt;/code&gt; (opinion), &lt;code&gt;#问题&lt;/code&gt; (question), &lt;code&gt;#灵感&lt;/code&gt; (idea), &lt;code&gt;#引用&lt;/code&gt; (quote), &lt;code&gt;#会议记录&lt;/code&gt; (meeting-notes)。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;原因&lt;/strong&gt;：这有助于你快速找到特定类型的笔记，而例如“引用”这个概念本身可能不需要一篇专门的笔记来阐述。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;非常广泛的、高度抽象的分类 (Broad, Abstract Categories):&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;例如：&lt;code&gt;#生活&lt;/code&gt; (life), &lt;code&gt;#工作&lt;/code&gt; (work), &lt;code&gt;#学习&lt;/code&gt; (learning), &lt;code&gt;#个人成长&lt;/code&gt; (personal-growth)。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;原因&lt;/strong&gt;：虽然这些也可以作为MOC（Map of Content，内容地图）的入口，使用双链链接到具体主题。但如果你只是想给笔记一个非常宽泛的归属，而这个归属本身你并不打算写一篇专门的笔记来阐述它（比如写一篇叫《生活》的笔记），那么用标签会更轻量。当你发现某个标签下的内容足够丰富，值得专门梳理时，再把它升级为一个MOC页面也不迟。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;临时性的、探索性的分组 (Temporary or Exploratory Grouping):&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;例如：你在研究某个新领域，可能会给相关的笔记打上 &lt;code&gt;#探索中_新技术A&lt;/code&gt; 这样的标签。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;原因&lt;/strong&gt;：这种分组可能随着你理解的深入而改变或废弃。使用标签更为灵活，避免了创建很多最终可能无用的空链接页面。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;四、更合适使用双链的情况（与标签对比）：&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;今天结合AI助手一起梳理思考了一把，我认为基本把这个疑问搞明晰了。&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Think Bigger 把想法放大10倍</title>
-      <link>http://localhost:1313/posts/think-bigger-%E6%8A%8A%E6%83%B3%E6%B3%95%E6%94%BE%E5%A4%A710%E5%80%8D/</link>
+      <link>http://localhost:59678/posts/think-bigger-%E6%8A%8A%E6%83%B3%E6%B3%95%E6%94%BE%E5%A4%A710%E5%80%8D/</link>
       <pubDate>Wed, 06 Aug 2025 23:15:12 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/think-bigger-%E6%8A%8A%E6%83%B3%E6%B3%95%E6%94%BE%E5%A4%A710%E5%80%8D/</guid>
+      <guid>http://localhost:59678/posts/think-bigger-%E6%8A%8A%E6%83%B3%E6%B3%95%E6%94%BE%E5%A4%A710%E5%80%8D/</guid>
       
         <description>&lt;p&gt;把目标定在火星，你可能会到月球，但把目标定在月球，你可能连大气层都出不去。&lt;/p&gt;
 &lt;p&gt;凡事“往大处想”，是谷歌的独特思维模式。佩奇称之为“&lt;strong&gt;把想法放大10倍&lt;/strong&gt;”（10X Thinking）。主张通过设定比常规目标高一个数量级的野心，倒逼团队突破惯性思维，避免渐进式优化，实现颠覆性创新。&lt;/p&gt;
@@ -79,16 +37,16 @@
 &lt;li&gt;你运营了一个公众号，每天一篇原创，写了两个月了，似乎没什么效果。那么拉长时间的维度，如果你坚持写，写了一年，写了十年，会是什么局面？&lt;/li&gt;
 &lt;li&gt;定好一个学习目标，无论什么情况，每天花费一个小时在这个领域，半年后看效果。如果不行，十年呢？&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;关联理论：[[第一性原理]] （均强调跳出竞争框架重新定义问题）&lt;/p&gt;</description>
+&lt;p&gt;关联理论：第一性原理（均强调跳出竞争框架重新定义问题）&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:59678/posts/my-first-post/</link>
       <pubDate>Wed, 06 Aug 2025 21:00:11 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>http://localhost:59678/posts/my-first-post/</guid>
       
         <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-C&#34; data-lang=&#34;C&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello，I am wenzi&amp;#34;&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
@@ -97,10 +55,10 @@
     
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:59678/about/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:59678/about/</guid>
       
         <description>&lt;p&gt;欢迎来到我的博客！&lt;/p&gt;
 &lt;p&gt;这里是我分享想法、记录生活的地方。&lt;/p&gt;

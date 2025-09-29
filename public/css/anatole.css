@@ -598,6 +598,43 @@ body {
 .theme--dark .post__content a {
   color: #6086b4;
 }
+.post__content p {
+  line-height: 1.6;
+  margin-bottom: 0.8em;
+}
+.post__content p:last-child {
+  margin-bottom: 0;
+}
+.post__content p strong {
+  font-weight: 600;
+}
+.post__content p em {
+  font-style: italic;
+}
+.post__content p code {
+  font-family: monospace;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+.post__content ul, .post__content ol {
+  line-height: 1.6;
+  margin-bottom: 0.8em;
+  padding-left: 1.5em;
+}
+.post__content ul:last-child, .post__content ol:last-child {
+  margin-bottom: 0;
+}
+.post__content ul li, .post__content ol li {
+  margin-bottom: 0.4em;
+}
+.post__content ul li:last-child, .post__content ol li:last-child {
+  margin-bottom: 0;
+}
+.post__content .chroma {
+  margin-bottom: 0.8em;
+}
 .theme--light .post__content .chroma {
   background-color: #eeeeee;
   display: block;
@@ -607,6 +644,9 @@ body {
   background-color: #464646;
   display: block;
   border-bottom: 1px solid #464646;
+}
+.post__content .chroma:last-child {
+  margin-bottom: 0;
 }
 .post__content code {
   font-family: monospace;
