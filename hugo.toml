@@ -12,6 +12,7 @@ author = "Wenzi"
 description = "A Collection of Reflections"
 profilePicture = "images/profile.jpg"
 mainSections = ["posts"]
+postSectionName = "posts"
 fullPostContent = false
 readMore = true
 
