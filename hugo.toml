@@ -19,9 +19,22 @@ summarylength = 25
 enableEmoji = true
 enableRobotsTXT = true
 
+# Giscus 评论系统配置
+  [params.giscus]
+    repo = "wenzisay/wenzisay"
+    repoID = "R_kgDOPZXasQ"
+    category = "Announcements"
+    categoryID = "DIC_kwDOPZXasc4CweKO"
+    mapping = "pathname"           # 可选，默认值
+    strict = "0"                  # 可选，默认值
+    reactionsEnabled = "1"        # 可选，默认值
+    emitMetadata = "0"            # 可选，默认值
+    inputPosition = "top"         # 可选，默认值
+    lang = "zh-CN"                # 设置为中文
+    loading = "lazy"              # 可选，默认值
 
 # Syntax highlighting
-pygmentsUseClasses = true   
+pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
